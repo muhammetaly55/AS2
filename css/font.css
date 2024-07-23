@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../font/PlayfairDisplay-RegularItalic.ttf');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../font/PlayfairDisplay-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../font/PlayfairDisplay-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../font/PlayfairDisplay-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../font/PlayfairDisplay-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/PlayfairDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../font/PlayfairDisplay-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../font/PlayfairDisplay-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../font/PlayfairDisplay-Black.ttf');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../font/PlayfairDisplay-BlackItalic.ttf');
+}
+
+.font-playfairdisplay {
+    font-family: 'PlayfairDisplay', sans-serif;
+}
