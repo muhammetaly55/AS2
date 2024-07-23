@@ -1,80 +1,101 @@
 @font-face {
-    font-family: 'PlayfairDisplay';
+    font-family: 'JosefinSans';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../font/JosefinSans-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    font-style: italic;
+    font-weight: 100;
+    src: url('../font/JosefinSans-ThinItalic.ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../font/JosefinSans-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    font-style: italic;
+    font-weight: 200;
+    src: url('../font/JosefinSans-ExtraLightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../font/JosefinSans-Light.ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../font/JosefinSans-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans';
     font-style: normal;
     font-weight: 400;
-    src: url('../font/PlayfairDisplay-Regular.ttf');
+    src: url('../font/JosefinSans-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'PlayfairDisplay';
+    font-family: 'JosefinSans';
     font-style: italic;
     font-weight: 400;
-    src: url('../font/PlayfairDisplay-RegularItalic.ttf');
+    src: url('../font/JosefinSans-RegularItalic.ttf');
 }
 
 @font-face {
-    font-family: 'PlayfairDisplay';
+    font-family: 'JosefinSans';
     font-style: normal;
     font-weight: 500;
-    src: url('../font/PlayfairDisplay-Medium.ttf');
+    src: url('../font/JosefinSans-Medium.ttf');
 }
 
 @font-face {
-    font-family: 'PlayfairDisplay';
+    font-family: 'JosefinSans';
     font-style: italic;
     font-weight: 500;
-    src: url('../font/PlayfairDisplay-MediumItalic.ttf');
+    src: url('../font/JosefinSans-MediumItalic.ttf');
 }
 
 @font-face {
-    font-family: 'PlayfairDisplay';
+    font-family: 'JosefinSans';
     font-style: normal;
     font-weight: 600;
-    src: url('../font/PlayfairDisplay-SemiBold.ttf');
+    src: url('../font/JosefinSans-SemiBold.ttf');
 }
 
 @font-face {
-    font-family: 'PlayfairDisplay';
+    font-family: 'JosefinSans';
     font-style: italic;
     font-weight: 600;
-    src: url('../font/PlayfairDisplay-SemiBoldItalic.ttf');
+    src: url('../font/JosefinSans-SemiBoldItalic.ttf');
 }
 
 @font-face {
-    font-family: 'PlayfairDisplay';
+    font-family: 'JosefinSans';
     font-style: normal;
     font-weight: 700;
-    src: url('../font/PlayfairDisplay-Bold.ttf');
+    src: url('../font/JosefinSans-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'PlayfairDisplay';
+    font-family: 'JosefinSans';
     font-style: italic;
     font-weight: 700;
-    src: url('../font/PlayfairDisplay-BoldItalic.ttf');
+    src: url('../font/JosefinSans-BoldItalic.ttf');
 }
 
-@font-face {
-    font-family: 'PlayfairDisplay';
-    font-style: italic;
-    font-weight: 800;
-    src: url('../font/PlayfairDisplay-ExtraBoldItalic.ttf');
-}
-
-@font-face {
-    font-family: 'PlayfairDisplay';
-    font-style: italic;
-    font-weight: 900;
-    src: url('../font/PlayfairDisplay-Black.ttf');
-}
-
-@font-face {
-    font-family: 'PlayfairDisplay';
-    font-style: italic;
-    font-weight: 900;
-    src: url('../font/PlayfairDisplay-BlackItalic.ttf');
-}
-
-.font-playfairdisplay {
-    font-family: 'PlayfairDisplay', sans-serif;
+.font-josefinsans {
+    font-family: 'JosefinSans', sans-serif;
 }
