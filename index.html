@@ -98,7 +98,11 @@
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 py-5">
                 <div class="col pt-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="card h-100 position-relative">
-                        <img src="img/featured_item_1.jpg" class="card-img-top" alt class="img-fluid">
+                        <a href="img/featured_item_1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                            <img src="img/featured_item_1.jpg" class="card-img-top" alt="">
+                            <a href="img/featured_item_3.jpg" data-fancybox="gallery" data-caption="Caption #2"></a>
+                            <a href="img/featured_item_2.jpg" data-fancybox="gallery" data-caption="Caption #3"></a>
+                        </a>
                         <div class="position-absolute end-0 pt-4 px-3">
                             <div class="bg-primary rounded-5 py-1 py-sm-2 px-2 px-sm-3 m-1 m-sm-2 text-center text-white">
                                 <span class="fw-bold">28</span><br><span class="small">AUGUST</span>
@@ -143,7 +147,11 @@
                 </div>
                 <div class="col pt-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="card h-100 position-relative">
-                        <img src="img/featured_item_2.jpg" class="card-img-top" alt="">
+                        <a href="img/featured_item_2.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                            <img src="img/featured_item_2.jpg" class="card-img-top" alt="">
+                            <a href="img/featured_item_3.jpg" data-fancybox="gallery" data-caption="Caption #2"></a>
+                            <a href="img/featured_item_1.jpg" data-fancybox="gallery" data-caption="Caption #3"></a>
+                        </a>
                         <div class="position-absolute end-0 pt-4 px-3">
                             <div class="bg-primary rounded-5 py-1 py-sm-2 px-2 px-sm-3 m-1 m-sm-2 text-center text-white">
                                 <span class="fw-bold">20</span><br><span class="small">SEPTEMBER</span>
@@ -188,7 +196,11 @@
                 </div>
                 <div class="col pt-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div class="card h-100 position-relative">
-                        <img src="img/featured_item_3.jpg" class="card-img-top" alt="">
+                        <a href="img/featured_item_3.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                            <img src="img/featured_item_3.jpg" class="card-img-top" alt="">
+                            <a href="img/featured_item_2.jpg" data-fancybox="gallery" data-caption="Caption #2"></a>
+                            <a href="img/featured_item_1.jpg" data-fancybox="gallery" data-caption="Caption #3"></a>
+                        </a>
                         <div class="position-absolute end-0 pt-4 px-3">
                             <div class="bg-primary rounded-5 py-1 py-sm-2 px-2 px-sm-3 m-1 m-sm-2 text-center text-white">
                                 <span class="fw-bold">12</span><br><span class="small">OCTOBER</span>
@@ -476,9 +488,14 @@
             </div>
         </div>
     </div>
-
+      
     <script>
-        AOS.init();
+        AOS.init({
+            once: false,
+        });
+        Fancybox.bind("[data-fancybox]", {
+            // Your custom options
+        });
     </script>
 </body>
 
